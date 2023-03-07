@@ -22,7 +22,7 @@ let locations = [
 
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
-app.use(morgan('tiny'));
+// app.use(morgan('tiny'));
 
 // Home page
 app.get('/', (req, res) => {
